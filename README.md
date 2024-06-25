@@ -1,30 +1,16 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
-
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+# NestJS backend server for online store
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Проект был разработан на NestJS. Вот некоторые ключевые точки:
+
+- Сайт был разработан на NestJS с использованием TypeScript для повышения надежности и качества кода.
+- Были использованы такие пакеты, как `@nestjs/common`, `@nestjs/core` и `@nestjs/platform-express` для создания основной структуры приложения.
+- Для управления сессиями пользователей использовался пакет `express-session`, а для аутентификации - `passport`.
+- Был использован пакет `@nestjs/swagger` для создания документации API. Название проекта API - 'Audio-Shop', и оно имеет версию '1.0'. Документация доступна по пути '/swagger' на сервере.
+- Сервер слушает порт 3000, что означает, что он будет доступен по адресу '[http://localhost:3000](http://localhost:3000/)' после его запуска.
+- Проект использует MySQL в качестве базы данных с помощью пакета `mysql2`.
+- В проекте используется инструмент командной строки `sequelize-cli` для миграции базы данных.
 
 ## Installation
 
@@ -32,18 +18,21 @@
 $ npm install
 ```
 
-## Running the app
+## Scripts
 
-```bash
-# development
-$ npm run start
+В проекте используются следующие скрипты:
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
+- `build`: собирает проект в папку `dist`.
+- `format`: форматирует все файлы TypeScript в проекте с помощью Prettier.
+- `start`: запускает проект в режиме production.
+- `start:dev`: запускает проект в режиме разработки с автоматической перезагрузкой при изменении файлов.
+- `start:debug`: запускает проект в режиме отладки.
+- `lint`: проверяет все файлы TypeScript на наличие ошибок линтинга.
+- `test`: запускает все тесты проекта с помощью Jest.
+- `test:watch`: запускает тесты в режиме наблюдения, автоматически перезапуская тесты при изменении файлов.
+- `test:cov`: генерирует отчет о покрытии кода тестами.
+- `test:debug`: запускает тесты в режиме отладки.
+- `test:e2e`: запускает end-to-end тесты.
 
 ## Test
 
@@ -58,16 +47,17 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
+## Dependencies
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+Были использованы следующие зависимости:
+
+- `@faker-js/faker` для генерации тестовых данных.
+- `axios` для отправки HTTP-запросов.
+- `bcryptjs` для хеширования паролей.
+- `class-validator` для валидации входящих данных.
+- `reflect-metadata`
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+- Author - {Andrej Spinej}
+- Website - [https://spinej.com](https://spinej.com/)
