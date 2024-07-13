@@ -1,25 +1,25 @@
 {
   "development": {
-    "username": "freedb_andrej",
-    "password": "xV7dkQr8Y?$FxHT",
-    "database": "freedb_magint",
-    "host": "sql.freedb.tech",
+    "username": "p684139_magn",
+    "password": "lolopal9393",
+    "database": "p684139_magn",
+    "host": "p684139.mysql.ihc.ru ",
     "dialect": "mysql",
     "port": 3306
   },
   "test": {
-    "username": "freedb_andrej",
-    "password": "xV7dkQr8Y?$FxHT",
-    "database": "freedb_magint",
-    "host": "sql.freedb.tech",
+    "username": "p684139_magn",
+    "password": "lolopal9393",
+    "database": "p684139_magn",
+    "host": "p684139.mysql.ihc.ru ",
     "dialect": "mysql",
     "port": 3306
   },
   "production": {
-    "username": "freedb_andrej",
-    "password": "xV7dkQr8Y?$FxHT",
-    "database": "freedb_magint",
-    "host": "sql.freedb.tech",
+    "username": "p684139_magn",
+    "password": "lolopal9393",
+    "database": "p684139_magn",
+    "host": "p684139.mysql.ihc.ru ",
     "dialect": "mysql",
     "port": 3306
   }
