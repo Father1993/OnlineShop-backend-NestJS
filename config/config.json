@@ -3,7 +3,7 @@
     "username": "p684139_magn",
     "password": "lolopal9393",
     "database": "p684139_magn",
-    "host": "p684139.mysql.ihc.ru ",
+    "host": "p684139.mysql.ihc.ru",
     "dialect": "mysql",
     "port": 3306
   },
@@ -11,7 +11,7 @@
     "username": "p684139_magn",
     "password": "lolopal9393",
     "database": "p684139_magn",
-    "host": "p684139.mysql.ihc.ru ",
+    "host": "p684139.mysql.ihc.ru",
     "dialect": "mysql",
     "port": 3306
   },
@@ -19,7 +19,7 @@
     "username": "p684139_magn",
     "password": "lolopal9393",
     "database": "p684139_magn",
-    "host": "p684139.mysql.ihc.ru ",
+    "host": "p684139.mysql.ihc.ru",
     "dialect": "mysql",
     "port": 3306
   }
