@@ -1,25 +1,25 @@
 {
   "development": {
-    "username": "freedb_andrey",
-    "password": "2KsrpQx4G?5fat@",
-    "database": "freedb_magnitola",
-    "host": "sql.freedb.tech",
+    "username": "sql7719514",
+    "password": "BWHAHWbHeB",
+    "database": "sql7719514",
+    "host": "sql7.freemysqlhosting.net",
     "dialect": "mysql",
     "port": 3306
   },
   "test": {
-    "username": "freedb_andrey",
-    "password": "2KsrpQx4G?5fat@",
-    "database": "freedb_magnitola",
-    "host": "sql.freedb.tech",
+    "username": "sql7719514",
+    "password": "BWHAHWbHeB",
+    "database": "sql7719514",
+    "host": "sql7.freemysqlhosting.net",
     "dialect": "mysql",
     "port": 3306
   },
   "production": {
-    "username": "freedb_andrey",
-    "password": "2KsrpQx4G?5fat@",
-    "database": "freedb_magnitola",
-    "host": "sql.freedb.tech",
+    "username": "sql7719514",
+    "password": "BWHAHWbHeB",
+    "database": "sql7719514",
+    "host": "sql7.freemysqlhosting.net",
     "dialect": "mysql",
     "port": 3306
   }
