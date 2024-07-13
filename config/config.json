@@ -1,24 +1,24 @@
 {
   "development": {
     "username": "freedb_andrej",
-    "password": "RKHJn4yAuuX!GS@",
-    "database": "freedb_shoping",
+    "password": "z@v3#Kz$TqYFtz4",
+    "database": "freedb_audio-shopp",
     "host": "sql.freedb.tech",
     "dialect": "mysql",
     "port": 3306
   },
   "test": {
     "username": "freedb_andrej",
-    "password": "RKHJn4yAuuX!GS@",
-    "database": "freedb_shoping",
+    "password": "z@v3#Kz$TqYFtz4",
+    "database": "freedb_audio-shopp",
     "host": "sql.freedb.tech",
     "dialect": "mysql",
     "port": 3306
   },
   "production": {
     "username": "freedb_andrej",
-    "password": "RKHJn4yAuuX!GS@",
-    "database": "freedb_shoping",
+    "password": "z@v3#Kz$TqYFtz4",
+    "database": "freedb_audio-shopp",
     "host": "sql.freedb.tech",
     "dialect": "mysql",
     "port": 3306
