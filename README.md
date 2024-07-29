@@ -1,5 +1,11 @@
 # NestJS backend server for online store
 
+### Live preview: https://onlineshop-client.onrender.com/
+
+Test USER: <br>
+login: ron, <br>
+password: ron123,
+
 ## Description
 
 Проект был разработан на NestJS. Вот некоторые ключевые точки:
